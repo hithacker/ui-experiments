@@ -16,17 +16,17 @@ export default function Home() {
                 <h1 className="text-2xl font-bold mb-4">UI Libraries Test</h1>
                 <ul className="space-y-2">
                     <li>
-                        <Link href="/headlessui-test">
-                            <a className="text-blue-500 hover:underline">Test Headless UI</a>
+                        <Link href="/headless" className="text-blue-500 hover:underline">
+                            Test Headless UI
                         </Link>
                     </li>
                     <li>
-                        <Link href="/radixui-test">
-                            <a className="text-blue-500 hover:underline">Test Radix UI</a>
+                        <Link href="/radix" className="text-blue-500 hover:underline">
+                            Test Radix UI
                         </Link>
                     </li>
                 </ul>
             </main>
         </div>
-    )
+    );
 }
