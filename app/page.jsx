@@ -30,6 +30,11 @@ export default function Home() {
               Test Aria UI
             </Link>
           </li>
+          <li>
+            <Link href="/plain" className="text-blue-500 hover:underline">
+              Test Plain React
+            </Link>
+          </li>
         </ul>
       </main>
     </div>
