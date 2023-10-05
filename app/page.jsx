@@ -25,6 +25,11 @@ export default function Home() {
               Test Radix UI
             </Link>
           </li>
+          <li>
+            <Link href="/aria" className="text-blue-500 hover:underline">
+              Test Aria UI
+            </Link>
+          </li>
         </ul>
       </main>
     </div>
